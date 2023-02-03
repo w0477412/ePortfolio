@@ -1,0 +1,12 @@
+@charset "UTF-8";
+/* 
+Author: Aundrea Johnston
+Date: Feb 3 2023
+Description: css style sheet for e portfoloio
+*/
+
+body{
+    background-color: rgb(105, 181, 121);
+    color: black;
+    font-style: italic;
+}
