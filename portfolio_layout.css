@@ -1,0 +1,38 @@
+@charset "UTF-8";
+/*
+Author:Aundrea Johnston
+Date:Feb 16 2023
+Description: css style sheet for resume.html
+*/
+
+.reHeading { grid-area: reHeading; }
+.rePersonal { grid-area: rePersonal; }
+.reContact { grid-area: reContact; }
+.reEducation { grid-area: reEducation; }
+.reSkills { grid-area: reSkills; }
+.reWork { grid-area: reWork; }
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+      'reHeading reHeading reHeading '
+      'rePersonal reSkills reSkills'
+      'reContact reWork reWork'
+      'reEducation reWork reWork';
+
+    gap: 10px;
+    background-color: green;
+    padding: 10px;
+    
+}  
+
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+    width: 80%;
+    margin-left:10%;
+  }
+
+
