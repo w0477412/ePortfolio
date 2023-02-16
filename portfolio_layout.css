@@ -20,19 +20,21 @@ Description: css style sheet for resume.html
       'reContact reWork reWork'
       'reEducation reWork reWork';
 
-    gap: 10px;
-    background-color: green;
+    gap: 5px 5px;
+    background-color: rgba(150, 185, 160);
     padding: 10px;
+    width: 80%;
+    margin-left: 10%;
     
 }  
 
   .grid-container > div {
     background-color: rgba(255, 255, 255, 0.8);
-    text-align: center;
-    padding: 20px 0;
+    text-align: left;
+    padding: 10px 0;
     font-size: 30px;
-    width: 80%;
-    margin-left:10%;
+    width: 90%;
+    margin-left:55;
   }
 
 
